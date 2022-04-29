@@ -60,7 +60,7 @@ export const personalInfo = {
       "Alias": "Werz",
       "Age": 16,
       "Education": "Red teaming",
-      "Position": "Eearth",
+      "Position": "Earth",
       "Email": "d2VyejRidXNpbmVzc0B0dXRhLmlv",
       "Interests":[
           "Software Engineering, "
