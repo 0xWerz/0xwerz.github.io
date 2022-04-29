@@ -4,6 +4,8 @@ import { AiFillGithub, AiFillTwitterSquare, AiFillShopping } from 'react-icons/a
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
+const prefix ='/'
+
 const Header = () =>  (
   <Container>
     <Div1>
