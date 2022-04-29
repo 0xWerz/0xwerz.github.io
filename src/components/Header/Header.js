@@ -1,0 +1,54 @@
+import Link from 'next/link';
+import React from 'react';
+import { AiFillGithub, AiFillTwitterSquare, AiFillShopping } from 'react-icons/ai';
+
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+
+const Header = () =>  (
+  <Container>
+    <Div1>
+      <Link href="/">
+        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
+        </a>
+      </Link>
+    </Div1>
+    <Div2>
+    <li>
+        <Link href="/">
+          <NavLink>./Home</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="/ctf">
+          <NavLink>./CTF's</NavLink>
+        </Link>
+      </li>
+      <li>
+        <Link href="#projects">
+          <NavLink>./projects</NavLink>
+        </Link>
+      </li>
+        
+      <li>
+        <Link href="#whoami">
+          <NavLink>./whoami</NavLink>
+        </Link>
+      </li>        
+    </Div2>
+      <Div3>
+        <SocialIcons href="https://github.com/0xWerz">
+          <AiFillGithub size="3rem" />
+        </SocialIcons>
+
+        <SocialIcons href="https://twitter.com/cyberwerz">
+          
+          <AiFillTwitterSquare size="3rem"/>
+        </SocialIcons>
+        <SocialIcons href="https://www.buymeacoffee.com/werz">
+          <AiFillShopping size="3rem" />
+        </SocialIcons>
+      </Div3>
+    </Container>
+);
+
+export default Header;
