@@ -31,13 +31,7 @@ jobs:
 
     - name: Build my App  
       run: npm run build
-      env:
-        NEXT_PUBLIC_BASE_PATH: /0xwerz.github.io
     - run: npm run export
-      env:
-        NEXT_PUBLIC_BASE_PATH: /0xwerz.github.io
-    - run: touch ./out/.nojekyll
-    
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@3.5.9
       with:
