@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "run": "touch ./out/.nojekyll",
-    "start": "next start",
+      "start": "next start",
     "react-build": "react-scripts build"
   },
   "dependencies": {
