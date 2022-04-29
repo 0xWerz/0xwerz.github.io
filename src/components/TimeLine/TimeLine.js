@@ -56,7 +56,7 @@ const Timeline = () => {
       <MeJson>
       <JSONPretty id="json-pretty" data={personalInfo} theme={JSONPrettyMon}></JSONPretty>
 
-  {/* <pre>{JSON.stringify(personalInfo, null, 3) }</pre> */}npm 
+  {/* <pre>{JSON.stringify(personalInfo, null, 3) }</pre> */} 
       </MeJson>
     
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
