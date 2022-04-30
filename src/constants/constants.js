@@ -63,7 +63,7 @@ export const personalInfo = {
       "Position": "Earth",
       "Email": "d2VyejRidXNpbmVzc0B0dXRhLmlv",
       "Interests":[
-          "Software Engineering, "
+          "Software Engineering, Web development,Visual editing "
       ]
   }
 }
