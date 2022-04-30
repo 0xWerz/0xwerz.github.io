@@ -1,11 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode,AboutmeJson, MeJson } from './TimeLineStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode,AboutmeJson, MeJson, CTFprofiles, CTFTitle,HTBlink,THMLink ,TimeLineTitle} from './TimeLineStyles';
+import { Section, SectionDivider, SectionTitle,   } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 import { personalInfo } from '../../constants/constants';
 import JSONPretty from 'react-json-pretty';
 import {JSONPrettyMon} from 'react-json-pretty/themes/monikai.css';
+
+
 
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -52,15 +54,43 @@ const Timeline = () => {
       <AboutmeJson>
       werz.json
       </AboutmeJson>
-
       <MeJson>
-      <JSONPretty id="json-pretty" data={personalInfo} theme={JSONPrettyMon}></JSONPretty>
+      <JSONPretty id="json-pretty" data={personalInfo} theme={JSONPrettyMon}>
+      </JSONPretty>
 
   {/* <pre>{JSON.stringify(personalInfo, null, 3) }</pre> */} 
       </MeJson>
-    
+    <CTFprofiles>
+          <CTFTitle>
+          CTF Profiles
+          </CTFTitle>
+          <HTBlink>
+          <ul>
+
+            <li>which Hack_The_Box</li>
+            <br></br>
+          </ul>
+          <a href='https://app.hackthebox.eu/profile/716133' >
+          <img src='https://www.hackthebox.com/badge/image/716133' alt="HackTheBox Werz Profile"></img> 
+          </a>
+          </HTBlink>
+      <br></br>
+          <THMLink>
+          <ul>
+
+            <li>which Try_Hack_Me</li>
+            <br></br>
+            
+          </ul>
+          <a href='https://tryhackme.com/p/razewerz'>
+          <img src="https://tryhackme-badges.s3.amazonaws.com/razewerz.png" alt="TryHackMe"></img>
+          </a>
+          </THMLink>
+    </CTFprofiles>
+    <TimeLineTitle>Timeline</TimeLineTitle>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
+        
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
               key={index}
