@@ -112,8 +112,52 @@ export const CarouselItemTitle = styled.h4`
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 16px;
     line-height: 24px;
+
   }
 `
+export const CTFprofiles = styled.marker`
+
+`
+
+export const CTFTitle = styled.h1`
+text-align: center;
+&:before {
+ color: #df1e78;
+ content: "</";
+}
+&:after {
+ color: #df1e78;
+ content: ">"
+}
+margin-bottom: 8 rem;
+`
+
+export const HTBlink = styled.div `
+  font-size: 3rem;
+  text-align: left;
+  border-radius: 80px 80px;
+
+`
+
+export const THMLink = styled.div `
+  font-size: 3rem;
+  text-align: left;
+  border-radius: 80px 80px;
+`
+
+export const TimeLineTitle = styled.h1`
+text-align: center;
+&:before {
+ color: #df1e78;
+ content: "</";
+}
+&:after {
+ color: #df1e78;
+ content: ">"
+}
+margin-bottom: 8 rem;
+`
+
 export const CarouselItemImg = styled.svg`
   margin-left: 21px;
   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
