@@ -12,6 +12,9 @@ const Header = () =>  (
   <Container>
       <Head>
         <title>Werz | Cybersecurity</title>
+        <meta name="description" content="Posts about Cybersecurity"></meta>
+        <meta property="og:description" content="Posts about Cybersecurity"></meta>
+        <meta property="og:image" content="/images/bmo.jpg"></meta>
       </Head>
     <Div1>
       <Link href="/">
