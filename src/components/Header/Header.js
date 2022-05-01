@@ -1,13 +1,18 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillTwitterSquare, AiFillShopping } from 'react-icons/ai';
+import Head from 'next/head'
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const prefix = '/';
 
 const Header = () =>  (
+  
   <Container>
+      <Head>
+        <title>Werz | Cybersecurity</title>
+      </Head>
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
