@@ -11,7 +11,7 @@ const Hero = () => (
           WERZ
         </Title>
         <InfoText>
-          It's about drive it's about power...🗿
+          Cyber security student, CTF player. interested in full-stack development - Desktop development.
         </InfoText>
     </Section>
   </>
