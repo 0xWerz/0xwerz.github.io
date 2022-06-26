@@ -4,7 +4,7 @@ export const Section = styled.section`
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
-  max-width: 1040px;
+  max-width: 1080px;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
@@ -49,11 +49,13 @@ export const SectionTitle = styled.h2`
 `
 
 
-export const InfoText = styled.p `
+export const InfoText = styled.p`
+  font-family: Arial;
   font-size: 2rem;
-  margin-bottom: 48.8rem;
+  margin-bottom: 16.8rem;
   @media ${(props) => props.theme.breakpoints.sm} {
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
+    
   }
 `
 export const SectionDivider = styled.div`

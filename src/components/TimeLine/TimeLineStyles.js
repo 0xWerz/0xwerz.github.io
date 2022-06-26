@@ -25,12 +25,11 @@ export const MeJson = styled.pre `
 `
 
 export const SectionTitle = styled.div`
-  background: #0F1624;
   font-size: 50px;
 `
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
-  background: #0F1624;
+  background: #qsfqs;
   padding: rem;
   list-style:none;
   display: flex;
@@ -67,7 +66,6 @@ export const CarouselMobileScrollNode = styled.div`
 `
 
 export const CarouselItem = styled.div`
-  background: #0F1624;
   border-radius: 3px;
   max-width: 196px;
 
@@ -174,7 +172,7 @@ export const CarouselItemText = styled.p`
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(280, 255, 255, 0.75);
   padding-right: 16px;
 
   @media ${props => props.theme.breakpoints.md} {
@@ -190,7 +188,6 @@ export const CarouselItemText = styled.p`
 `
 export const CarouselButtons = styled.div`
   width: 288px;
-
   display: none;
   visibility: hidden;
 

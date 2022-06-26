@@ -67,7 +67,7 @@ const Timeline = () => {
           <HTBlink>
           <ul>
 
-            <li>which Hack_The_Box</li>
+            <li>/usr/bin/which HTB</li>
             <br></br>
           </ul>
           <a href='https://app.hackthebox.eu/profile/716133' >
@@ -78,7 +78,7 @@ const Timeline = () => {
           <THMLink>
           <ul>
 
-            <li>which Try_Hack_Me</li>
+            <li>/usr/bin/which THM</li>
             <br></br>
             
           </ul>

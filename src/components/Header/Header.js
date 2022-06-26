@@ -15,7 +15,7 @@ const Header = () =>  (
         <meta content="Werz         Cybersecurity content, And more" property="og:title" />
         <meta content="Posts about Cybersecurity, Pentesting, CTF writeups, and more" property="og:description" />
         <meta content="https://0xwerz.github.io/" property="og:url" />
-        <meta content="https://0xwerz.github.io/images/bmo.jpg" property="og:image" />
+        <meta content="https://0xwerz.github.io/images/icon.jpg" property="og:image" />
         <meta content="#2f186e" data-react-helmet="true" name="theme-color" />
       </Head>
     <Div1>

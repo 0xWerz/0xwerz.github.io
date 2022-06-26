@@ -11,7 +11,7 @@ const Hero = () => (
           WERZ
         </Title>
         <InfoText>
-          Cyber security student, CTF player. interested in full-stack development - Desktop development.
+          Hi ’m Werz, a Cyber Security student, full-stack developer. who enjoys building and breaking things.
         </InfoText>
     </Section>
   </>
