@@ -31,7 +31,7 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="https://0xwerz.github.io/ctf" passHref={true} >
+        <Link href="/ctf" >
           <NavLink>./CTF's</NavLink>
         </Link>
       </li>
