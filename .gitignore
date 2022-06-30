@@ -1,2 +1,12 @@
+.next/
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
 node_modules
-.next
+bower_components
+*.sublime*
+psd
+thumb
+sketch

@@ -2,7 +2,7 @@ import Ctf from '../components/ctf/Ctf';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
-const Home = () => {
+const CtfHome = () => {
   return (
     
     <Layout>
@@ -11,4 +11,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default CtfHome;
