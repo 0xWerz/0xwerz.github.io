@@ -58,7 +58,7 @@ export const personalInfo = {
   "Personal_Info":{
       "Name": "rabii",
       "Alias": "Werz",
-      "Age": 16,
+      "Age": 17,
       "Education": "Red teaming",
       "Position": "Earth",
       "Email": "d2VyejRidXNpbmVzc0B0dXRhLmlv",
@@ -79,7 +79,7 @@ export const HtbCtf = [
   {
     box: 'backdoor',
     provider: "Hack the box ",
-      image: 'https://github.com/0xWerz/ctf-writeups/raw/main/HTB/Machines/backdoor/img/Backdoor.png',
+      image: 'https://opengraph.githubassets.com/f31f072889efb2d8f2133803e8894c06131d432429e56d0a602a703f4a377de3/0xWerz/pgo',
     source: '/ctf/htb/backdoor',
     tags: ['Easy', 'Linux', 'Wordpress', 'CMS Exploit','RCE'],
     visit: '',
@@ -88,7 +88,7 @@ export const HtbCtf = [
   {
     box: 'pandora',
     provider: "Hack the box",
-      image: 'https://github.com/0xWerz/ctf-writeups/raw/main/HTB/Machines/pandora/img/Pandora.png',
+      image: 'https://opengraph.githubassets.com/f31f072889efb2d8f2133803e8894c06131d432429e56d0a602a703f4a377de3/0xWerz/pgo',
       tags: ['Easy', 'Linux', 'PHP', 'CMS Exploit','SUID'],
 
     source: '/ctf/htb/pandora',
@@ -98,7 +98,7 @@ export const HtbCtf = [
   {
     title: 'secret',
     provider: "Hack the box",
-    image: 'https://github.com/0xWerz/ctf-writeups/raw/main/HTB/Machines/secret/img/Secret.png',
+    image: 'https://opengraph.githubassets.com/f31f072889efb2d8f2133803e8894c06131d432429e56d0a602a703f4a377de3/0xWerz/pgo',
     tags: ['Easy', 'Linux', 'Javascript', 'CMS Exploit','API'],
 
     source: '/ctf/htb/secret',
