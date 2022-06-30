@@ -34,6 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/ctf.js"
+    ],
+    "/ctf/htb/backdoor": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/ctf/htb/backdoor.js"
     ]
   },
   "ampFirstPages": []
