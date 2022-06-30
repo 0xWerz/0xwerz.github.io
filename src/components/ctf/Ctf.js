@@ -7,7 +7,7 @@ import { CtfMarkdown } from '../../constants/constants';
 
 const Ctf = () => (
   
-    <Section nopadding id="projects">
+    <Section nopadding id="machines">
       <SectionDivider />
       <SectionTitle main>Machines</SectionTitle>
       <GridContainer>

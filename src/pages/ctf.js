@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <Layout>
       <Section grid>
+        
       </Section>
       <Ctf />
     </Layout>

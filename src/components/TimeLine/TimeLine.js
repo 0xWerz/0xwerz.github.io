@@ -50,7 +50,7 @@ const Timeline = () => {
 
   return (
     <Section id="whoami">
-      <SectionTitle>./usr/bin/whoami</SectionTitle>
+      <SectionTitle>/usr/bin/whoami</SectionTitle>
       <AboutmeJson>
       werz.json
       </AboutmeJson>
@@ -67,7 +67,7 @@ const Timeline = () => {
           <HTBlink>
           <ul>
 
-            <li>/usr/bin/which HTB</li>
+            <li>/usr/bin/cat HTB</li>
             <br></br>
           </ul>
           <a href='https://app.hackthebox.eu/profile/716133' >
@@ -78,7 +78,7 @@ const Timeline = () => {
           <THMLink>
           <ul>
 
-            <li>/usr/bin/which THM</li>
+            <li>/usr/bin/cat THM</li>
             <br></br>
             
           </ul>
