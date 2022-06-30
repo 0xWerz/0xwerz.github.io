@@ -75,7 +75,7 @@ export const Achievements = [
     { number: 11, text: 'Github Stars', }
 ]
 
-export const CtfMarkdown = [
+export const HtbCtf = [
   {
     box: 'backdoor',
     provider: "Hack the box ",

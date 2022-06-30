@@ -2,7 +2,7 @@ import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './CtfStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { CtfMarkdown } from '../../constants/constants';
+import { HtbCtf } from '../../constants/constants';
 
 
 const Ctf = () => (
@@ -11,7 +11,7 @@ const Ctf = () => (
       <SectionDivider />
       <SectionTitle main>Machines</SectionTitle>
       <GridContainer>
-        {CtfMarkdown.map((p, i) => {
+        {HtbCtf.map((p, i) => {
           return (
             
             <BlogCard key={i}>
