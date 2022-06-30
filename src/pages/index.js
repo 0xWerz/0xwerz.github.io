@@ -5,7 +5,6 @@ import Projects from '../components/Projects/Projects';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
-import Header from '../components/Header/Header';
 
 
 const Home = () => {
