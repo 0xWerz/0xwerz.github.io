@@ -9,7 +9,7 @@ const Ctf = () => (
   
     <Section nopadding id="machines">
       <SectionDivider />
-      <SectionTitle main>Machines</SectionTitle>
+      <SectionTitle main>Machines - HTB</SectionTitle>
       <GridContainer>
         {HtbCtf.map((p, i) => {
           return (

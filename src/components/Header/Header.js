@@ -36,13 +36,13 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="#projects">
+        <Link href="https://0xwerz.github.io/#projects" passHref >
           <NavLink>./projects</NavLink>
         </Link>
       </li>
         
       <li>
-        <Link href="#whoami">
+        <Link href="https://0xwerz.github.io/#whoami">
           <NavLink>./whoami</NavLink>
         </Link>
       </li>        
