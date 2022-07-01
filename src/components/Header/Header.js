@@ -31,7 +31,7 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="/ctf" passHref >
+        <Link href="ctf" passHref >
           <NavLink>./CTF's</NavLink>
         </Link>
       </li>
