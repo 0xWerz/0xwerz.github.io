@@ -77,7 +77,7 @@ export const Achievements = [
 
 export const HtbCtf = [
   {
-    box: 'backdoor',
+    title: 'backdoor',
     provider: "Hack the box ",
       image: 'https://github.com/0xWerz/ctf-writeups/raw/main/HTB/Machines/backdoor/img/Backdoor.png',
     source: '/ctf/htb/backdoor',
@@ -86,7 +86,7 @@ export const HtbCtf = [
     id: 0,
   },
   {
-    box: 'pandora',
+    title: 'pandora',
     provider: "Hack the box",
       image: 'https://github.com/0xWerz/ctf-writeups/raw/main/HTB/Machines/pandora/img/Pandora.png',
       tags: ['Easy', 'Linux', 'PHP', 'CMS Exploit','SUID'],

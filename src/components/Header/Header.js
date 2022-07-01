@@ -5,6 +5,7 @@ import Head from 'next/head'
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const prefix = '/';
+
 const Header = () =>  (
 
   <Container>
@@ -29,9 +30,9 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="ctf/" as={"ctf"}>
+        <a href="ctf" as={'/ctf'} >
           <NavLink>./CTF's</NavLink>
-        </Link>
+        </a>
       </li>
       <li>
         <Link href="https://0xwerz.github.io/#projects" passHref >

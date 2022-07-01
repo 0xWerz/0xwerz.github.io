@@ -1,7 +1,6 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './CtfStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle, BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './CtfStyles';
 import { HtbCtf } from '../../constants/constants';
 
 
@@ -9,17 +8,18 @@ const Ctf = () => (
   
     <Section nopadding id="machines">
       <SectionDivider />
-      <SectionTitle main>Machines - HTB</SectionTitle>
+      <SectionTitle>Machines - HTB</SectionTitle>
       <GridContainer>
         {HtbCtf.map((p, i) => {
           return (
             
             <BlogCard key={i}>
             <Img src={p.image} />
-              <TitleContent>
+           {/*}   <TitleContent>
                 <HeaderThree title>{p.title}</HeaderThree>
-                <Hr />
-              </TitleContent>
+            </TitleContent>   */}
+                            <Hr />
+
               <CardInfo className="card-info">{p.provider}</CardInfo>
               <div>
                 <TitleContent></TitleContent>
