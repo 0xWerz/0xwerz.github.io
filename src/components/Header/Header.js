@@ -2,13 +2,11 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillTwitterSquare, AiFillShopping } from 'react-icons/ai';
 import Head from 'next/head'
-
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const prefix = '/';
-
 const Header = () =>  (
-  
+
   <Container>
       <Head>
         <title>Werz | Cybersecurity</title>
@@ -26,12 +24,12 @@ const Header = () =>  (
     </Div1>
     <Div2>
     <li>
-        <Link href="/">
+        <Link href="/" >
           <NavLink>./Home</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="ctf" passHref >
+        <Link href="ctf/" as={"ctf"}>
           <NavLink>./CTF's</NavLink>
         </Link>
       </li>
