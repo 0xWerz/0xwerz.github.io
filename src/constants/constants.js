@@ -80,7 +80,7 @@ export const HtbCtf = [
     title: 'backdoor',
     provider: "Hack the box ",
       image: 'https://github.com/0xWerz/ctf-writeups/raw/main/HTB/Machines/backdoor/img/Backdoor.png',
-    source: '/ctf/htb/backdoor',
+    source: 'https://github.com/0xWerz/ctf-writeups/blob/main/HTB/Machines/backdoor/Backdoor.md#backdoor-htb--0xwerz--220422',
     tags: ['Easy', 'Linux', 'Wordpress', 'CMS Exploit','RCE'],
     visit: '',
     id: 0,
@@ -91,7 +91,7 @@ export const HtbCtf = [
       image: 'https://github.com/0xWerz/ctf-writeups/raw/main/HTB/Machines/pandora/img/Pandora.png',
       tags: ['Easy', 'Linux', 'PHP', 'CMS Exploit','SUID'],
 
-    source: '/ctf/htb/pandora',
+    source: 'https://github.com/0xWerz/ctf-writeups/blob/main/HTB/Machines/pandora/pandora.md#pandora-ctf--222022',
     visit: '',
     id: 1,
   },
@@ -101,7 +101,7 @@ export const HtbCtf = [
     image: 'https://github.com/0xWerz/ctf-writeups/raw/main/HTB/Machines/secret/img/Secret.png',
     tags: ['Easy', 'Linux', 'Javascript', 'CMS Exploit','API'],
 
-    source: '/ctf/htb/secret',
+    source: 'https://github.com/0xWerz/ctf-writeups/blob/main/HTB/Machines/secret/Secret.md#secret-htb--0xwerz--011522',
     visit: '',
     id: 2,
   },

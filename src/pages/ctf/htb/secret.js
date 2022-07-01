@@ -6,8 +6,8 @@ const content = 'https://raw.githubusercontent.com/0xWerz/ctf-writeups/main/HTB/
 
 const pandora = () => {
   return (
+    
     <Layout>
-
     </Layout>
   );
 };
