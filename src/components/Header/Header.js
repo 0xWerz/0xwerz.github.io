@@ -14,7 +14,7 @@ const Header = () =>  (
         <meta content="Werz         Cybersecurity content, And more" property="og:title" />
         <meta content="Posts about Cybersecurity, Pentesting, CTF writeups, and more" property="og:description" />
         <meta content="https://0xwerz.github.io/" property="og:url" />
-        <meta content="https://0xwerz.github.io/images/icon.jpg" property="og:image" />
+        <meta content="https://raw.githubusercontent.com/0xWerz/0xwerz.github.io/master/public/images/icon.jpeg" property="og:image" />
         <meta content="#2f186e" data-react-helmet="true" name="theme-color" />
       </Head>
     <Div1>
@@ -30,20 +30,20 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <a href="ctf" as={'/ctf'} >
-          <NavLink>./CTF's</NavLink>
-        </a>
+      <Link href="https://0xwerz.github.io/#projects" passHref >
+          <NavLink>./projects</NavLink>
+        </Link>
       </li>
       <li>
-        <Link href="https://0xwerz.github.io/#projects" passHref >
-          <NavLink>./projects</NavLink>
+      <Link href="https://0xwerz.github.io/#whoami" passHref>
+          <NavLink>./whoami</NavLink>
         </Link>
       </li>
         
       <li>
-        <Link href="https://0xwerz.github.io/#whoami" passHref>
-          <NavLink>./whoami</NavLink>
-        </Link>
+      <a href="ctf" as={'/ctf'} >
+          <NavLink>./CTF's</NavLink>
+        </a>
       </li>        
     </Div2>
       <Div3>
