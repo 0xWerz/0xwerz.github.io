@@ -13,7 +13,7 @@ export const projects = [
     description: "Instagram auto Account Creation /w selenium ",
       image: 'https://opengraph.githubassets.com/f31f072889efb2d8f2133803e8894c06131d432429e56d0a602a703f4a377de3/0xWerz/Instagram-accounts-creator',
       tags: ['python', 'bot', 'instagram', 'automation'],
-    source: 'https://github.com/0xwerz/egybest-scraper',
+    source: 'https://github.com/0xwerz/Instagram-accounts-creator',
     visit: '',
     id: 0,
   },

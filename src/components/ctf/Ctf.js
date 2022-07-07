@@ -30,7 +30,7 @@ const Ctf = () => (
               </TagList>
               </div>
               <UtilityList>
-                <ExternalLinks href={p.source}>Writeup</ExternalLinks>
+                <ExternalLinks href={p.source} target="_blank" >Writeup</ExternalLinks>
               </UtilityList>
             </BlogCard>
           );
