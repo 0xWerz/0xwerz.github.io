@@ -105,4 +105,14 @@ export const HtbCtf = [
     visit: '',
     id: 2,
   },
+  {
+    title: 'undetected',
+    provider: "Hack the box",
+    image: 'https://github.com/0xWerz/ctf-writeups/raw/main/HTB/Machines/undetected/img/undetected.png',
+    tags: ['medium', 'Linux', 'Reversing', 'RCE','Backdoor'],
+
+    source: 'https://github.com/0xWerz/ctf-writeups/blob/main/HTB/Machines/undetected/undetected.md#undetected-htb--0xwerz--030222',
+    visit: '',
+    id: 3,
+  },
 ];
