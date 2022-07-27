@@ -1,12 +1,3 @@
-/*var gs = require('github-scraper');
-var url = '/0xWerz' // a random username
-gs(url, function(err, data) {
-  console.log(data); // or what ever you want to do with the data
-})
-*/
-
-
-
 export const projects = [
   {
     title: 'Instagram auto Account Creation',
@@ -17,15 +8,6 @@ export const projects = [
     visit: '',
     id: 0,
   },
-  /*{
-    title: 'Egybest Scraper ',
-    description:"A egybest movies only scraper (still under development) im too lazy <:",
-    image: 'https://opengraph.githubassets.com/f31f072889efb2d8f2133803e8894c06131d432429e56d0a602a703f4a377de3/0xWerz/Instagram-accounts-creator',
-    tags: ['flask', 'scraper', 'movies', 'egybest'],
-    source: 'https://github.com/0xWerz/Instagram-accounts-creator/',
-    visit: '',
-    id: 1,
-  },*/
   {
     title: 'A fast and simple Go tcp ports scan',
     description: "Disocrd bot for scraping proxies ",
@@ -68,13 +50,6 @@ export const personalInfo = {
   }
 }
 
-export const Achievements = [
-    { number: "#100", text: 'Top 100 on hack the box'},
-    { number: 7, text: 'Open Source Projects'},
-    { number: 22, text: 'Github Followers', },
-    { number: 11, text: 'Github Stars', }
-]
-
 export const HtbCtf = [
   {
     title: 'backdoor',
@@ -114,5 +89,15 @@ export const HtbCtf = [
     source: 'https://github.com/0xWerz/ctf-writeups/blob/main/HTB/Machines/undetected/undetected.md#undetected-htb--0xwerz--030222',
     visit: '',
     id: 3,
+  },
+  {
+    title: 'acute',
+    provider: "Hack the box",
+    image: 'https://github.com/0xWerz/ctf-writeups/raw/main/HTB/Machines/acute/img/Acute.png',
+    tags: ['Hard', 'Windows', 'Misconfiguration','Active-Directory'],
+
+    source: 'https://github.com/0xWerz/ctf-writeups/blob/main/HTB/Machines/undetected/undetected.md#undetected-htb--0xwerz--030222',
+    visit: '',
+    id: 4,
   },
 ];
