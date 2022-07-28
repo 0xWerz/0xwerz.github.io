@@ -16,7 +16,7 @@ function Achievements(){
     { number: "#100", text: 'Top 100 on hack the box'},
     { number: data.public_repos, text: 'Open Source Projects'},
     { number: data.followers, text: 'Github Followers', },
-    { number: 11, text: 'Github Stars', }
+    { number: 18, text: 'Github Stars', }
 ]
   return(
     

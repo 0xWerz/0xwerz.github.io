@@ -50,6 +50,7 @@ const Timeline = () => {
 
   return (
     <Section id="whoami">
+      <SectionDivider/>
       <SectionTitle main>Whoami</SectionTitle>
       <AboutmeJson>
       werz.json
